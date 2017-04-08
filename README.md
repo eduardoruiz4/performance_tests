@@ -8,12 +8,10 @@ on the msg folder. The dynamic reconfiguration cfg file is on the cfg folder and
 launch folder.
 
 You can run the exercise by running the launch files. There are 4 different launch files, they launch the 4 different publisher/
-subscriber combinations. These files launch the proper publish and subscriber nodes (indicated on the file name), the rqt_reconfigure
-in order to choose, by a GUI, the roop_late value; and a rqt_plot showing how the real value is changing through time against the
-desired value.
+subscriber combinations. These files launch the proper publish and subscriber nodes (indicated on the file name), the rqt_reconfigure in order to choose, by a GUI, the roop_late value; and a rqt_plot showing how the real value is changing through time against the desired value.
 
-If the real rate value is changed from 1 on the rqt_reconfigure GUI, then the user can realize in which desired rate the real 
-rate rate becomes slower (lower frequency) and unstable (several peaks on the plot).
+If the real rate value is changed from 1 on the rqt_reconfigure GUI, then the user can visualize in which desired rate the real 
+rate becomes slower (lower frequency) and unstable (several peaks on the plot).
 
-If you want to try this package, rememeber to make executable the python files, including the dynparam.cfg.
+If you want to try this package, remember to make executable the python files, including the dynparam.cfg.
 
