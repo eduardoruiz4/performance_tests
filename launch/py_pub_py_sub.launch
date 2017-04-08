@@ -1,0 +1,19 @@
+<!-- -->
+<launch>
+
+<node name="py_publisher" pkg ="performance_tests" type="py_publisher.py" respawn="false" output="screen"/>
+
+
+<node name="py_subscriber" pkg ="performance_tests" type="py_subscriber.py" respawn="false" output="screen"/>
+
+<node name="rate_plot"
+        pkg="rqt_plot"
+        type="rqt_plot"
+        args="/RealRate /DesiredRate" />
+
+<node name="rqt_reconfigure" pkg ="rqt_reconfigure" type="rqt_reconfigure" respawn="false" output="screen"/>
+
+</launch>
+
+
+

@@ -1,0 +1,16 @@
+<!-- -->
+<launch>
+
+<node name="cpp_publisher" pkg ="performance_tests" type="cpp_publisher" respawn="false" output="screen"/>
+
+
+<node name="cpp_subscriber" pkg ="performance_tests" type="cpp_subscriber" respawn="false" output="screen"/>
+
+
+
+<node name="rqt_reconfigure" pkg ="rqt_reconfigure" type="rqt_reconfigure" respawn="false" output="screen"/>
+
+</launch>
+
+
+
